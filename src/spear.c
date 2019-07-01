@@ -6,7 +6,7 @@ int A[100000];
 
 int p(int m){
   int sum = 0;
-  for(int i = 0, i < n, i++){
+  for(i = 0; i < n; i++){
       sum += (A[i]/m);
   }
   return sum < k;
