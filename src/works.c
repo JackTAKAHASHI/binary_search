@@ -7,7 +7,7 @@ int A[100000];
 int p(int m){
   int w = 0;
   int v = 0;
-  for(i = 0; i < n; i++){
+  for(int i = 0; i < n; i++){
       if(m < A[i])
           v = k + 1;
       if( m >= w + A[i])

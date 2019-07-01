@@ -6,7 +6,7 @@ int A[100000];
 
 int p(int m){
   int sum = 0;
-  for(i = 0; i < n; i++){
+  for(int i = 0; i < n; i++){
       sum += (A[i]/m);
   }
   return sum < k;
@@ -25,7 +25,7 @@ int main(){
     
   while(ub - lb > 1){
       int m = (ub + lb) / 2;
-      if(p[m]) ub = m;
+      if(p(m)) ub = m;
       else lb = m;
   }
   printf("%d\n",lb);
